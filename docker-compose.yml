@@ -1,0 +1,48 @@
+version: '3.8'
+services:
+  cineproject-api:
+    build:
+      context: .
+      dockerfile: CineProject.API/Dockerfile
+    ports:
+      - "5000:80"
+    depends_on:
+      - cineproject-consumer
+
+  cineproject-consumer:
+    build:
+      context: .
+      dockerfile: CineProject.Consumer/Dockerfile
+    environment:
+      - AWS_ACCESS_KEY_ID=TESTE
+      - AWS_SECRET_ACCESS_KEY=TESTEACCESS
+      - ASPNETCORE_ENVIRONMENT=Production
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  redis:
+    image: redis
+    container_name: redis
+    ports:
+      - "6379:6379"
+
+  localstack:
+    image: localstack/localstack
+    container_name: localstack
+    ports:
+      - "4566:4566"
+    environment:
+      - SERVICES=sqs
+      - DEFAULT_REGION=us-east-1
+      - DATA_DIR=/tmp/localstack
+      - TMPDIR=/alternative/tmp/path
+    volumes:
+      - "./localstack:/tmp/localstack"
+
+volumes:
+  mongo-data:
