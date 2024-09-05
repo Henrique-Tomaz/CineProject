@@ -1,11 +1,11 @@
 @CineProject_HostAddress = http://localhost:5046
 
-GET {{CineProject_HostAddress}}/todos/
+GET {{CineProject_HostAddress}}/swagger/index.html
 Accept: application/json
 
 ###
 
-GET {{CineProject_HostAddress}}/todos/1
+GET {{CineProject_HostAddress}}/swagger/index.html
 Accept: application/json
 
 ###

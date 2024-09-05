@@ -19,7 +19,14 @@ namespace CineProject.API.Controllers
         public async Task<ActionResult<IEnumerable<Product>>> GetAll()
         {
             var products = await _repository.GetAllAsync();
-            return Ok(products);
+            if(products.Count() > 0)
+            {
+                return Ok(products);
+            }
+            else
+            {
+                return NoContent();
+            }        
         }
 
         [HttpGet("{id}")]
@@ -28,20 +35,20 @@ namespace CineProject.API.Controllers
             var product = await _repository.GetByIdAsync(id);
             if (product == null)
             {
-                return NotFound();
+                return NoContent();
             }
             return Ok(product);
         }
 
         [HttpPost]
-        public async Task<ActionResult> Create(Product product)
+        public async Task<ActionResult> Create([FromBody] Product product)
         {
             await _repository.CreateAsync(product);
             return CreatedAtAction(nameof(GetById), new { id = product.Id }, product);
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Update(string id, Product product)
+        public async Task<ActionResult> Update(string id, [FromBody] Product product)
         {
             if (id != product.Id)
             {

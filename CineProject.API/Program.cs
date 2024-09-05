@@ -1,27 +1,28 @@
-using Amazon.Extensions.NETCore.Setup;
 using Amazon.SQS;
 using CineProject.API;
 using CineProject.API.Repositories;
 using CineProject.API.Services;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
+using StackExchange.Redis;
 using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurações MongoDB
 builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection("MongoDBSettings"));
 builder.Services.AddSingleton<IProductRepository, ProductRepository>();
 
-// Configurações AWS SQS
 builder.Services.Configure<AWSSettings>(builder.Configuration.GetSection("AWS"));
 builder.Services.AddAWSService<IAmazonSQS>();
 builder.Services.AddSingleton<SqsService>();
 
-// Configurações Redis
 builder.Services.AddStackExchangeRedisCache(options =>
 {
     options.Configuration = builder.Configuration["Redis:ConnectionString"];
+});
+builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+{
+    var configuration = builder.Configuration.GetSection("Redis")["ConnectionString"];
+    return ConnectionMultiplexer.Connect(configuration);
 });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -34,6 +35,7 @@ builder.Services.AddControllers()
     {
         options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
     });
+
 
 var app = builder.Build();
 
@@ -48,6 +50,9 @@ app.UseHttpsRedirection();
 
 app.UseRouting();
 app.UseAuthorization();
-app.MapControllers();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
 
 app.Run();

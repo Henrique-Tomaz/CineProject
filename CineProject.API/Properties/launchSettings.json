@@ -3,7 +3,7 @@
     "http": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "todos",
+      "launchUrl": "swagger/index.html",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
@@ -13,12 +13,11 @@
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/todos",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger/index.html",
       "environmentVariables": {
         "ASPNETCORE_HTTP_PORTS": "8080"
       },
       "publishAllPorts": true
     }
-  },
-  "$schema": "http://json.schemastore.org/launchsettings.json"
+  }
 }

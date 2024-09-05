@@ -104,3 +104,5 @@ C:\Users\henri\source\repos\CineProject\CineProject.API\obj\Debug\net8.0\refint\
 C:\Users\henri\source\repos\CineProject\CineProject.API\obj\Debug\net8.0\CineProject.API.pdb
 C:\Users\henri\source\repos\CineProject\CineProject.API\obj\Debug\net8.0\CineProject.API.genruntimeconfig.cache
 C:\Users\henri\source\repos\CineProject\CineProject.API\obj\Debug\net8.0\ref\CineProject.API.dll
+C:\Users\henri\source\repos\CineProject\CineProject.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\henri\source\repos\CineProject\CineProject.API\obj\Debug\net8.0\CineProject.API.sourcelink.json

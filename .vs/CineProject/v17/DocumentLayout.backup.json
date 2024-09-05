@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\henri\\source\\repos\\CineProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7ED647C-6958-449A-8B23-01E557617E8A}|CineProject.Consumer\\CineProject.Consumer.csproj|c:\\users\\henri\\source\\repos\\cineproject\\cineproject.consumer\\services\\sqsconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7ED647C-6958-449A-8B23-01E557617E8A}|CineProject.Consumer\\CineProject.Consumer.csproj|solutionrelative:cineproject.consumer\\services\\sqsconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7ED647C-6958-449A-8B23-01E557617E8A}|CineProject.Consumer\\CineProject.Consumer.csproj|c:\\users\\henri\\source\\repos\\cineproject\\cineproject.consumer\\cineproject.consumer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C7ED647C-6958-449A-8B23-01E557617E8A}|CineProject.Consumer\\CineProject.Consumer.csproj|solutionrelative:cineproject.consumer\\cineproject.consumer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7ED647C-6958-449A-8B23-01E557617E8A}|CineProject.Consumer\\CineProject.Consumer.csproj|c:\\users\\henri\\source\\repos\\cineproject\\cineproject.consumer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C7ED647C-6958-449A-8B23-01E557617E8A}|CineProject.Consumer\\CineProject.Consumer.csproj|solutionrelative:cineproject.consumer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{992A7E6C-AB86-47D5-8983-47101F939035}|CineProject.API\\CineProject.API.csproj|c:\\users\\henri\\source\\repos\\cineproject\\cineproject.api\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{992A7E6C-AB86-47D5-8983-47101F939035}|CineProject.API\\CineProject.API.csproj|solutionrelative:cineproject.api\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{992A7E6C-AB86-47D5-8983-47101F939035}|CineProject.API\\CineProject.API.csproj|c:\\users\\henri\\source\\repos\\cineproject\\cineproject.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{992A7E6C-AB86-47D5-8983-47101F939035}|CineProject.API\\CineProject.API.csproj|solutionrelative:cineproject.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{992A7E6C-AB86-47D5-8983-47101F939035}|CineProject.API\\CineProject.API.csproj|c:\\users\\henri\\source\\repos\\cineproject\\cineproject.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{992A7E6C-AB86-47D5-8983-47101F939035}|CineProject.API\\CineProject.API.csproj|solutionrelative:cineproject.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{992A7E6C-AB86-47D5-8983-47101F939035}|CineProject.API\\CineProject.API.csproj|c:\\users\\henri\\source\\repos\\cineproject\\cineproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{992A7E6C-AB86-47D5-8983-47101F939035}|CineProject.API\\CineProject.API.csproj|solutionrelative:cineproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{992A7E6C-AB86-47D5-8983-47101F939035}|CineProject.API\\CineProject.API.csproj|c:\\users\\henri\\source\\repos\\cineproject\\cineproject.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{992A7E6C-AB86-47D5-8983-47101F939035}|CineProject.API\\CineProject.API.csproj|solutionrelative:cineproject.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{992A7E6C-AB86-47D5-8983-47101F939035}|CineProject.API\\CineProject.API.csproj|c:\\users\\henri\\source\\repos\\cineproject\\cineproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{992A7E6C-AB86-47D5-8983-47101F939035}|CineProject.API\\CineProject.API.csproj|solutionrelative:cineproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{992A7E6C-AB86-47D5-8983-47101F939035}|CineProject.API\\CineProject.API.csproj|c:\\users\\henri\\source\\repos\\cineproject\\cineproject.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{992A7E6C-AB86-47D5-8983-47101F939035}|CineProject.API\\CineProject.API.csproj|solutionrelative:cineproject.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7ED647C-6958-449A-8B23-01E557617E8A}|CineProject.Consumer\\CineProject.Consumer.csproj|c:\\users\\henri\\source\\repos\\cineproject\\cineproject.consumer\\services\\sqsconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7ED647C-6958-449A-8B23-01E557617E8A}|CineProject.Consumer\\CineProject.Consumer.csproj|solutionrelative:cineproject.consumer\\services\\sqsconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,65 +50,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.Consumer\\appsettings.json",
-              "RelativeDocumentMoniker": "CineProject.Consumer\\appsettings.json",
-              "ToolTip": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.Consumer\\appsettings.json",
-              "RelativeToolTip": "CineProject.Consumer\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-03T00:21:33.879Z",
+              "DocumentIndex": 0,
+              "Title": "CineProject.Consumer",
+              "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.Consumer\\CineProject.Consumer.csproj",
+              "RelativeDocumentMoniker": "CineProject.Consumer\\CineProject.Consumer.csproj",
+              "ToolTip": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.Consumer\\CineProject.Consumer.csproj",
+              "RelativeToolTip": "CineProject.Consumer\\CineProject.Consumer.csproj",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAvwBAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-05T19:40:49.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CineProject.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CineProject.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-05T19:40:24.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.API\\Program.cs",
+              "RelativeDocumentMoniker": "CineProject.API\\Program.cs",
+              "ToolTip": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.API\\Program.cs",
+              "RelativeToolTip": "CineProject.API\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAlwCMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T19:28:38.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.API\\appsettings.json",
+              "RelativeDocumentMoniker": "CineProject.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.API\\appsettings.json",
+              "RelativeToolTip": "CineProject.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-04T02:09:58.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.API\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "CineProject.API\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.API\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "CineProject.API\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T01:53:58.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SqsConsumerService.cs",
               "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.Consumer\\Services\\SqsConsumerService.cs",
               "RelativeDocumentMoniker": "CineProject.Consumer\\Services\\SqsConsumerService.cs",
               "ToolTip": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.Consumer\\Services\\SqsConsumerService.cs",
               "RelativeToolTip": "CineProject.Consumer\\Services\\SqsConsumerService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T00:01:38.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.API\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "CineProject.API\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.API\\Models\\Product.cs",
-              "RelativeToolTip": "CineProject.API\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T23:42:22.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.API\\Program.cs",
-              "RelativeDocumentMoniker": "CineProject.API\\Program.cs",
-              "ToolTip": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.API\\Program.cs",
-              "RelativeToolTip": "CineProject.API\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T23:33:00.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.API\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "CineProject.API\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\henri\\source\\repos\\CineProject\\CineProject.API\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "CineProject.API\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAADwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T23:30:32.995Z",
               "EditorCaption": ""
